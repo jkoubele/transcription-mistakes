@@ -1,0 +1,17 @@
+Number	GSE	Link	Content	Data availability	Chemistry
+1	GSE235780	GSE235780	Phf16 KO and IR, also 2 normal WT samples.	This record has not yet been released.	
+2	GSE190848	GSE190848	epithelial cells, 3 young and 3 aged	R1+R2	v3
+3	GSE211112	GSE211112	eosinophils (granulocites), but are maybe proliferating	is Smartseq2	
+4	GSE230816	GSE230816	Mouse colonic organoids (one is WT Untreated)	R1+R2	?
+5	GSE210724	GSE210724	intestinal crypts, 2 control, 2 on arachidonic acid diet	BAM file	
+6	GSE217886	GSE217886	Peyer's patches - aggregations of lymphoid tissue, 1 WT	R1 as technical, raw R1+R2 available	
+7	GSE178826	GSE178826	WT from crypts + different cell types; focus on micro / small RNA (not sure if reads contains mRNA - seems not)	Seems to be small RNA	
+8	GSE173887	GSE173887	RORγt mutant and some treatment, but also 2 WT control	BAM file	
+9	GSE172261	GSE172261	colon stroma, DSS treatment but hopefully also control	R1+R2+R3 available, UMI + CB as (separate) technical	
+10	GSE147319	GSE147319	obese mouse (vs hopefully control)	R1+R2 (Libraries were sequenced on the HiSeq4000 (Illumina) with 150bp paired-end sequencing of read2.)	v2
+11	GSE158859	GSE158859	colon fibroblasts (1 control, 1 wound mice)	R1+R2	v2
+12	GSE152325	GSE152325	small intestinal crypt cells, 2 control + 12 mutants / enrichments	One sample R1+R2	
+13	GSE151152	GSE151152	Lyz1 KO + 1 WT control	R1 as technical, raw R1+R2 available	
+14	GSE131630	GSE131630	Busulfan treatment, 1 control	R1 as technical, raw R1+R2 available, lengths 151 both	
+15	GSE148366	GSE148366	Guts / crypto organoids	R1 as technical, raw R1+R2 available	
+16	GSE114374	GSE114374	3 healthy control, 2 DSS treatment	BAM file	

@@ -1,0 +1,1904 @@
+{
+  "GSE235780": {
+    "title": "The E3 ubiquitin ligase function of the epigenetic reader PHF16 is crucial for injury-induced intestinal regeneration",
+    "summary": "The intestine has a remarkable capacity to regenerate during homeostasis by the vigorous intestinal stem cells (ISCs) that reside in the base of the crypts. ISCs are easily impaired by DNA damage due to their active cell cycle. Intriguingly, certain cell populations possess the dedifferentiating ability to restore ISCs after ablation, although the molecular mechanisms by which these cells dedifferentiate into ISCs are largely unknown. Here, we performed single-cell RNA-seq using wild type and Phf16 knockout mice from normal or after irradiation to elucidate molecular mechanisms of Phf16 in intestinal regeneration. Our work characterizes that Phf16 is crucial for downregulating stemness in revival stem cells.",
+    "samples": [
+      {
+        "GSM": "GSM7509416",
+        "SRX": "SRX20250519",
+        "taxon": "Mus musculus",
+        "title": "Small intestinal epithelial cells Phf16-/y Sample1 IR (7 dpi)",
+        "summary": "Small intestine crypt",
+        "runs_srr": []
+      },
+      {
+        "GSM": "GSM7509414",
+        "SRX": "SRX20250517",
+        "taxon": "Mus musculus",
+        "title": "Small intestinal epithelial cells WT Sample1 IR (7 dpi)",
+        "summary": "Small intestine crypt",
+        "runs_srr": []
+      },
+      {
+        "GSM": "GSM7509408",
+        "SRX": "SRX12584775",
+        "taxon": "Mus musculus",
+        "title": "Small intestinal epithelial cells Phf16-/y Sample1 normal",
+        "summary": "Small intestine crypt",
+        "runs_srr": []
+      },
+      {
+        "GSM": "GSM7509411",
+        "SRX": "SRX12584778",
+        "taxon": "Mus musculus",
+        "title": "Small intestinal epithelial cells WT Sample2 IR (3 dpi)",
+        "summary": "Small intestine crypt",
+        "runs_srr": []
+      },
+      {
+        "GSM": "GSM7509406",
+        "SRX": "SRX12584773",
+        "taxon": "Mus musculus",
+        "title": "Small intestinal epithelial cells WT Sample1 norma",
+        "summary": "Small intestine crypt",
+        "runs_srr": []
+      },
+      {
+        "GSM": "GSM7509417",
+        "SRX": "SRX20250520",
+        "taxon": "Mus musculus",
+        "title": "Small intestinal epithelial cells Phf16-/y Sample2 IR (7 dpi)",
+        "summary": "Small intestine crypt",
+        "runs_srr": []
+      },
+      {
+        "GSM": "GSM7509409",
+        "SRX": "SRX12584776",
+        "taxon": "Mus musculus",
+        "title": "Small intestinal epithelial cells Phf16-/y Sample2 normal",
+        "summary": "Small intestine crypt",
+        "runs_srr": []
+      },
+      {
+        "GSM": "GSM7509415",
+        "SRX": "SRX20250518",
+        "taxon": "Mus musculus",
+        "title": "Small intestinal epithelial cells WT Sample2 IR (7 dpi)",
+        "summary": "Small intestine crypt",
+        "runs_srr": []
+      },
+      {
+        "GSM": "GSM7509412",
+        "SRX": "SRX12584779",
+        "taxon": "Mus musculus",
+        "title": "Small intestinal epithelial cells Phf16-/y Sample1 IR (3 dpi)",
+        "summary": "Small intestine crypt",
+        "runs_srr": []
+      },
+      {
+        "GSM": "GSM7509413",
+        "SRX": "SRX12584780",
+        "taxon": "Mus musculus",
+        "title": "Small intestinal epithelial cells Phf16-/y Sample2 IR (3 dpi)",
+        "summary": "Small intestine crypt",
+        "runs_srr": []
+      },
+      {
+        "GSM": "GSM7509407",
+        "SRX": "SRX12584774",
+        "taxon": "Mus musculus",
+        "title": "Small intestinal epithelial cells WT Sample2 normal",
+        "summary": "Small intestine crypt",
+        "runs_srr": []
+      },
+      {
+        "GSM": "GSM7509410",
+        "SRX": "SRX12584777",
+        "taxon": "Mus musculus",
+        "title": "Small intestinal epithelial cells WT Sample1 IR (3 dpi)",
+        "summary": "Small intestine crypt",
+        "runs_srr": []
+      }
+    ]
+  },
+  "GSE190848": {
+    "title": "Aged intestinal stem cells propagate cell-intrinsic sources of inflammaging in mice [single-cell RNA-seq]",
+    "summary": "During ageing, cell-intrinsic and extrinsic factors lead to the decline of tissue function and organismal health. Disentangling these factors is important for developing effective strategies to prolong organismal healthspan. Here, we addressed this question in the mouse intestinal epithelium, which forms a dynamic interface with its microenvironment and receives extrinsic signals affecting its homeostasis and tissue ageing. We systematically compared transcriptional profiles of young and aged epithelial cells in vivo and ex vivo in cultured intestinal organoids. We found that all cell types of the aged epithelium exhibit an inflammation phenotype, which is marked by MHC class II upregulation and most pronounced in enterocytes. This was accompanied by elevated levels of the immune tolerance markers PD-1 and PD-L1 in the aged tissue microenvironment, indicating dysregulation of immunological homeostasis. Intestinal organoids from aged mice still showed an inflammation signature after weeks in culture, which was concurrent with increased chromatin accessibility of inflammation-associated loci. Our results reveal a cell-intrinsic, persistent inflammation phenotype in aged epithelial cells, which might contribute to systemic inflammation observed during ageing.",
+    "samples": [
+      {
+        "GSM": "GSM5732976",
+        "SRX": "SRX13403328",
+        "taxon": "Mus musculus",
+        "title": "in_vivo-aged-rep2",
+        "summary": "epithelial cells, freshly isolated from the small intestine of an aged mouse",
+        "runs_srr": [
+          "SRR17223769",
+          "SRR17223770",
+          "SRR17223771",
+          "SRR17223772",
+          "SRR17223773",
+          "SRR17223774",
+          "SRR17223775",
+          "SRR17223776"
+        ]
+      },
+      {
+        "GSM": "GSM5732973",
+        "SRX": "SRX13403325",
+        "taxon": "Mus musculus",
+        "title": "in_vivo-young-rep1",
+        "summary": "epithelial cells, freshly isolated from the small intestine of a young mouse",
+        "runs_srr": [
+          "SRR17223793",
+          "SRR17223794",
+          "SRR17223795",
+          "SRR17223796",
+          "SRR17223797",
+          "SRR17223798",
+          "SRR17223799",
+          "SRR17223800"
+        ]
+      },
+      {
+        "GSM": "GSM5732975",
+        "SRX": "SRX13403327",
+        "taxon": "Mus musculus",
+        "title": "in_vivo-young-rep2",
+        "summary": "epithelial cells, freshly isolated from the small intestine of a young mouse",
+        "runs_srr": [
+          "SRR17223777",
+          "SRR17223778",
+          "SRR17223779",
+          "SRR17223780",
+          "SRR17223781",
+          "SRR17223782",
+          "SRR17223783",
+          "SRR17223784"
+        ]
+      },
+      {
+        "GSM": "GSM5732974",
+        "SRX": "SRX13403326",
+        "taxon": "Mus musculus",
+        "title": "in_vivo-aged-rep1",
+        "summary": "epithelial cells, freshly isolated from the small intestine of an aged mouse",
+        "runs_srr": [
+          "SRR17223785",
+          "SRR17223786",
+          "SRR17223787",
+          "SRR17223788",
+          "SRR17223789",
+          "SRR17223790",
+          "SRR17223791",
+          "SRR17223792"
+        ]
+      },
+      {
+        "GSM": "GSM5732978",
+        "SRX": "SRX13403330",
+        "taxon": "Mus musculus",
+        "title": "in_vivo-aged-rep3",
+        "summary": "epithelial cells, freshly isolated from the small intestine of an aged mouse",
+        "runs_srr": [
+          "SRR17223753",
+          "SRR17223754",
+          "SRR17223755",
+          "SRR17223756",
+          "SRR17223757",
+          "SRR17223758",
+          "SRR17223759",
+          "SRR17223760"
+        ]
+      },
+      {
+        "GSM": "GSM5732977",
+        "SRX": "SRX13403329",
+        "taxon": "Mus musculus",
+        "title": "in_vivo-young-rep3",
+        "summary": "epithelial cells, freshly isolated from the small intestine of a young mouse",
+        "runs_srr": [
+          "SRR17223761",
+          "SRR17223762",
+          "SRR17223763",
+          "SRR17223764",
+          "SRR17223765",
+          "SRR17223766",
+          "SRR17223767",
+          "SRR17223768"
+        ]
+      }
+    ]
+  },
+  "GSE211112": {
+    "title": "The neuropeptide neuromedin U directs eosinophils to promote epithelial cell differentiation and barrier immunity of the small intestine",
+    "summary": "In this work we show that neuromedin U receptor 1 (NMUR1)-mediated signaling programs SI eosinophils to support epithelial cell differentiation and barrier immunity. The global transcriptional profiling of eosinophils from different tissues of mice revealed that Nmur1 was expressed in a subset of eosinophils specifically in the SI. Fate mapping analyses showed that NMUR1 expression in SI eosinophils was imprinted by local microenvironment and further enhanced by the inflammation. Genetic deletion of NMUR1 decreased the numbers of eosinophils, degranulation activity, and goblet cell differentiation in the SI. Chemogenetic manipulation of NMU-expressing cells significantly altered the goblet cell differentiation and mucus secretion. Eosinophil-organoid co-culture experiments demonstrated that NMU-mediated eosinophil activation directly promoted the growth of intestinal organoids and formation of budding domains and complex crypt\u2013villus structures. Finally, the deficiency of NMUR1 compromised anti-parasite immunity. Thus, NMU regulates epithelial cell differentiation and function through stimulating NMUR1-expressing eosinophils in the SI, highlighting the importance of neuro-immune-epithelium crosstalk in maintaining tissue homeostasis.",
+    "samples": [
+      {
+        "GSM": "GSM6450737",
+        "SRX": "SRX17039970",
+        "taxon": "Mus musculus",
+        "title": "SI_P5",
+        "summary": "Small Intestine",
+        "runs_srr": [
+          "SRR21023646"
+        ]
+      },
+      {
+        "GSM": "GSM6450731",
+        "SRX": "SRX17039964",
+        "taxon": "Mus musculus",
+        "title": "SI_2",
+        "summary": "Small Intestine",
+        "runs_srr": [
+          "SRR21023652"
+        ]
+      },
+      {
+        "GSM": "GSM6450711",
+        "SRX": "SRX17039944",
+        "taxon": "Mus musculus",
+        "title": "BM_2",
+        "summary": "Bone Marrow",
+        "runs_srr": [
+          "SRR21023672"
+        ]
+      },
+      {
+        "GSM": "GSM6450714",
+        "SRX": "SRX17039947",
+        "taxon": "Mus musculus",
+        "title": "Blood_2",
+        "summary": "Blood",
+        "runs_srr": [
+          "SRR21023669"
+        ]
+      },
+      {
+        "GSM": "GSM6450717",
+        "SRX": "SRX17039950",
+        "taxon": "Mus musculus",
+        "title": "SP_1",
+        "summary": "Spleen",
+        "runs_srr": [
+          "SRR21023666"
+        ]
+      },
+      {
+        "GSM": "GSM6450728",
+        "SRX": "SRX17039961",
+        "taxon": "Mus musculus",
+        "title": "Colon_2",
+        "summary": "Colon",
+        "runs_srr": [
+          "SRR21023655"
+        ]
+      },
+      {
+        "GSM": "GSM6450734",
+        "SRX": "SRX17039967",
+        "taxon": "Mus musculus",
+        "title": "SI_P1",
+        "summary": "Small Intestine",
+        "runs_srr": [
+          "SRR21023649"
+        ]
+      },
+      {
+        "GSM": "GSM6450725",
+        "SRX": "SRX17039958",
+        "taxon": "Mus musculus",
+        "title": "Skin_2",
+        "summary": "Skin",
+        "runs_srr": [
+          "SRR21023658"
+        ]
+      },
+      {
+        "GSM": "GSM6450745",
+        "SRX": "SRX17039978",
+        "taxon": "Mus musculus",
+        "title": "EOS_10x",
+        "summary": "Small Intestine",
+        "runs_srr": [
+          "SRR21023638"
+        ]
+      },
+      {
+        "GSM": "GSM6450712",
+        "SRX": "SRX17039945",
+        "taxon": "Mus musculus",
+        "title": "BM_3",
+        "summary": "Bone Marrow",
+        "runs_srr": [
+          "SRR21023671"
+        ]
+      },
+      {
+        "GSM": "GSM6450729",
+        "SRX": "SRX17039962",
+        "taxon": "Mus musculus",
+        "title": "Colon_4",
+        "summary": "Colon",
+        "runs_srr": [
+          "SRR21023654"
+        ]
+      },
+      {
+        "GSM": "GSM6450732",
+        "SRX": "SRX17039965",
+        "taxon": "Mus musculus",
+        "title": "SI_3",
+        "summary": "Small Intestine",
+        "runs_srr": [
+          "SRR21023651"
+        ]
+      },
+      {
+        "GSM": "GSM6450726",
+        "SRX": "SRX17039959",
+        "taxon": "Mus musculus",
+        "title": "Skin_4",
+        "summary": "Skin",
+        "runs_srr": [
+          "SRR21023657"
+        ]
+      },
+      {
+        "GSM": "GSM6450720",
+        "SRX": "SRX17039953",
+        "taxon": "Mus musculus",
+        "title": "SP_4",
+        "summary": "Spleen",
+        "runs_srr": [
+          "SRR21023663"
+        ]
+      },
+      {
+        "GSM": "GSM6450743",
+        "SRX": "SRX17039976",
+        "taxon": "Mus musculus",
+        "title": "SI_N7",
+        "summary": "Small Intestine",
+        "runs_srr": [
+          "SRR21023640"
+        ]
+      },
+      {
+        "GSM": "GSM6450727",
+        "SRX": "SRX17039960",
+        "taxon": "Mus musculus",
+        "title": "Colon_1",
+        "summary": "Colon",
+        "runs_srr": [
+          "SRR21023656"
+        ]
+      },
+      {
+        "GSM": "GSM6450740",
+        "SRX": "SRX17039973",
+        "taxon": "Mus musculus",
+        "title": "SI_N3",
+        "summary": "Small Intestine",
+        "runs_srr": [
+          "SRR21023643"
+        ]
+      },
+      {
+        "GSM": "GSM6450723",
+        "SRX": "SRX17039956",
+        "taxon": "Mus musculus",
+        "title": "Lung_3",
+        "summary": "Lung",
+        "runs_srr": [
+          "SRR21023660"
+        ]
+      },
+      {
+        "GSM": "GSM6450744",
+        "SRX": "SRX17039977",
+        "taxon": "Mus musculus",
+        "title": "SI_N8",
+        "summary": "Small Intestine",
+        "runs_srr": [
+          "SRR21023639"
+        ]
+      },
+      {
+        "GSM": "GSM6450738",
+        "SRX": "SRX17039971",
+        "taxon": "Mus musculus",
+        "title": "SI_P8",
+        "summary": "Small Intestine",
+        "runs_srr": [
+          "SRR21023645"
+        ]
+      },
+      {
+        "GSM": "GSM6450741",
+        "SRX": "SRX17039974",
+        "taxon": "Mus musculus",
+        "title": "SI_N4",
+        "summary": "Small Intestine",
+        "runs_srr": [
+          "SRR21023642"
+        ]
+      },
+      {
+        "GSM": "GSM6450721",
+        "SRX": "SRX17039954",
+        "taxon": "Mus musculus",
+        "title": "Lung_1",
+        "summary": "Lung",
+        "runs_srr": [
+          "SRR21023662"
+        ]
+      },
+      {
+        "GSM": "GSM6450735",
+        "SRX": "SRX17039968",
+        "taxon": "Mus musculus",
+        "title": "SI_P3",
+        "summary": "Small Intestine",
+        "runs_srr": [
+          "SRR21023648"
+        ]
+      },
+      {
+        "GSM": "GSM6450724",
+        "SRX": "SRX17039957",
+        "taxon": "Mus musculus",
+        "title": "Skin_1",
+        "summary": "Skin",
+        "runs_srr": [
+          "SRR21023659"
+        ]
+      },
+      {
+        "GSM": "GSM6450719",
+        "SRX": "SRX17039952",
+        "taxon": "Mus musculus",
+        "title": "SP_3",
+        "summary": "Spleen",
+        "runs_srr": [
+          "SRR21023664"
+        ]
+      },
+      {
+        "GSM": "GSM6450722",
+        "SRX": "SRX17039955",
+        "taxon": "Mus musculus",
+        "title": "Lung_2",
+        "summary": "Lung",
+        "runs_srr": [
+          "SRR21023661"
+        ]
+      },
+      {
+        "GSM": "GSM6450736",
+        "SRX": "SRX17039969",
+        "taxon": "Mus musculus",
+        "title": "SI_P4",
+        "summary": "Small Intestine",
+        "runs_srr": [
+          "SRR21023647"
+        ]
+      },
+      {
+        "GSM": "GSM6450739",
+        "SRX": "SRX17039972",
+        "taxon": "Mus musculus",
+        "title": "SI_N2",
+        "summary": "Small Intestine",
+        "runs_srr": [
+          "SRR21023644"
+        ]
+      },
+      {
+        "GSM": "GSM6450718",
+        "SRX": "SRX17039951",
+        "taxon": "Mus musculus",
+        "title": "SP_2",
+        "summary": "Spleen",
+        "runs_srr": [
+          "SRR21023665"
+        ]
+      },
+      {
+        "GSM": "GSM6450715",
+        "SRX": "SRX17039948",
+        "taxon": "Mus musculus",
+        "title": "Blood_3",
+        "summary": "Blood",
+        "runs_srr": [
+          "SRR21023668"
+        ]
+      },
+      {
+        "GSM": "GSM6450730",
+        "SRX": "SRX17039963",
+        "taxon": "Mus musculus",
+        "title": "SI_1",
+        "summary": "Small Intestine",
+        "runs_srr": [
+          "SRR21023653"
+        ]
+      },
+      {
+        "GSM": "GSM6450742",
+        "SRX": "SRX17039975",
+        "taxon": "Mus musculus",
+        "title": "SI_N5",
+        "summary": "Small Intestine",
+        "runs_srr": [
+          "SRR21023641"
+        ]
+      },
+      {
+        "GSM": "GSM6450716",
+        "SRX": "SRX17039949",
+        "taxon": "Mus musculus",
+        "title": "Blood_4",
+        "summary": "Blood",
+        "runs_srr": [
+          "SRR21023667"
+        ]
+      },
+      {
+        "GSM": "GSM6450733",
+        "SRX": "SRX17039966",
+        "taxon": "Mus musculus",
+        "title": "SI_4",
+        "summary": "Small Intestine",
+        "runs_srr": [
+          "SRR21023650"
+        ]
+      },
+      {
+        "GSM": "GSM6450710",
+        "SRX": "SRX17039943",
+        "taxon": "Mus musculus",
+        "title": "BM_1",
+        "summary": "Bone Marrow",
+        "runs_srr": [
+          "SRR21023673"
+        ]
+      },
+      {
+        "GSM": "GSM6450713",
+        "SRX": "SRX17039946",
+        "taxon": "Mus musculus",
+        "title": "Blood_1",
+        "summary": "Blood",
+        "runs_srr": [
+          "SRR21023670"
+        ]
+      }
+    ]
+  },
+  "GSE230816": {
+    "title": "Single-cell analysis of colonic organoids deficient for tumor necrosis factor receptor 2",
+    "summary": "Colonic epithelial repair is a key determinant of health. After injury, repair initiates through phenotypic reprogramming of wounded epithelium to a regenerative state permissive for the activation of alternative stem cell populations and healing. Although cytokine signals such as interferon help induce regenerative reprogramming, the signals that modify this state as the wound resolves remain largely unknown. Here we show that, during healing, the late upregulation of a cytokine receptor, tumor necrosis factor (TNF) receptor 2 (R2, TNFR2, Tnfrsf1b), clears the phenotype of regenerative signaling and restores homeostatic patterns of epithelial differentiation. Mice lacking epithelial-specific expression of TNFR2 also failed to complete colon ulcer healing, suggesting that full repair requires coordination of both regenerative and homeostatic epithelial phenotypes. In single-cell RNA-seq experiments, we find that colonic epithelial organoids grown from Tnfr2-/- mice retain a highly enriched census of progenitor cells and reduced representation of differentiated cells, consistent with TNFR2's role in promoting differentiation. These results demonstrate how epithelial cells adapt to inflammatory cues to choreograph repair.",
+    "samples": [
+      {
+        "GSM": "GSM7242370",
+        "SRX": "SRX20123120",
+        "taxon": "Mus musculus",
+        "title": "Mouse colonic organoids, Wildtype, Untreated",
+        "summary": "colonic organoids",
+        "runs_srr": [
+          "SRR24330245",
+          "SRR24330246",
+          "SRR24330247",
+          "SRR24330248"
+        ]
+      },
+      {
+        "GSM": "GSM7242373",
+        "SRX": "SRX20123122",
+        "taxon": "Mus musculus",
+        "title": "Mouse colonic organoids, Tnfr2-/-, Untreated",
+        "summary": "colonic organoids",
+        "runs_srr": [
+          "SRR24330237",
+          "SRR24330238",
+          "SRR24330239",
+          "SRR24330240"
+        ]
+      },
+      {
+        "GSM": "GSM7242374",
+        "SRX": "SRX20123123",
+        "taxon": "Mus musculus",
+        "title": "Mouse colonic organoids, Tnfr2-/-, TNF-treated",
+        "summary": "colonic organoids",
+        "runs_srr": [
+          "SRR24330233",
+          "SRR24330234",
+          "SRR24330235",
+          "SRR24330236"
+        ]
+      },
+      {
+        "GSM": "GSM7242371",
+        "SRX": "SRX20123121",
+        "taxon": "Mus musculus",
+        "title": "Mouse colonic organoids, Wildtype, TNF-treated",
+        "summary": "colonic organoids",
+        "runs_srr": [
+          "SRR24330241",
+          "SRR24330242",
+          "SRR24330243",
+          "SRR24330244"
+        ]
+      }
+    ]
+  },
+  "GSE210724": {
+    "title": "Epigenetic reprogramming of intestinal stemness by dietary arachidonic acid [In_vivo]",
+    "summary": "Single cell transcriptomic profiling (sc RNA-seq)  of  diatery arachidonic acid (AA) induced  gene expression pogram associated with regeneration in intestinal organoids.",
+    "samples": [
+      {
+        "GSM": "GSM6435983",
+        "SRX": "SRX16978261",
+        "taxon": "Mus musculus",
+        "title": "ARD#2",
+        "summary": "Intestinal crypts",
+        "runs_srr": [
+          "SRR20959709"
+        ]
+      },
+      {
+        "GSM": "GSM6435980",
+        "SRX": "SRX16978258",
+        "taxon": "Mus musculus",
+        "title": "Cont#1",
+        "summary": "Intestinal crypts",
+        "runs_srr": [
+          "SRR20959712"
+        ]
+      },
+      {
+        "GSM": "GSM6435981",
+        "SRX": "SRX16978259",
+        "taxon": "Mus musculus",
+        "title": "Cont#2",
+        "summary": "Intestinal crypts",
+        "runs_srr": [
+          "SRR20959711"
+        ]
+      },
+      {
+        "GSM": "GSM6435982",
+        "SRX": "SRX16978260",
+        "taxon": "Mus musculus",
+        "title": "ARD#1",
+        "summary": "Intestinal crypts",
+        "runs_srr": [
+          "SRR20959710"
+        ]
+      }
+    ]
+  },
+  "GSE217886": {
+    "title": "Single-cell RNA-seq of the mouse Peyer's patches blood endothelium",
+    "summary": "Immunoglobulin family and carbohydrate vascular addressins encoded by Madcam1 and St6gal1 control lymphocyte homing into intestinal tissues, regulating immunity and inflammation. The addressins are developmentally programmed to decorate endothelial cells lining gut post-capillary and high endothelial venules (HEV), providing a prototypical example of organ- and segment-specific endothelial specialization. We identify conserved NKX-COUP-TFII composite elements (NCCE) in regulatory regions of Madcam1 and St6gal1 that bind intestinal homeodomain protein NKX2-3 cooperatively with venous nuclear receptor COUP-TFII to activate transcription. The Madcam1 element also integrates repressive signals from arterial/capillary Notch effectors. Pan-endothelial COUP-TFII overexpression induces ectopic addressin expression in NKX2-3+ capillaries, while NKX2-3 deficiency abrogates expression by HEV. Phylogenetically conserved NCCE are enriched in genes involved in neuron migration and morphogenesis of the heart, kidney, pancreas and other organs. Our results define an NKX-COUP-TFII morphogenetic code that targets expression of mucosal vascular addressins.",
+    "samples": [
+      {
+        "GSM": "GSM6729432",
+        "SRX": "SRX18246535",
+        "taxon": "Mus musculus",
+        "title": "COUPOE, replicate 1",
+        "summary": "Peyer's patches",
+        "runs_srr": [
+          "SRR22270428",
+          "SRR22270429",
+          "SRR22270430",
+          "SRR22270431"
+        ]
+      },
+      {
+        "GSM": "GSM6729431",
+        "SRX": "SRX18246534",
+        "taxon": "Mus musculus",
+        "title": "WT",
+        "summary": "Peyer's patches",
+        "runs_srr": [
+          "SRR22270432",
+          "SRR22270433",
+          "SRR22270434",
+          "SRR22270435"
+        ]
+      },
+      {
+        "GSM": "GSM6729433",
+        "SRX": "SRX18246536",
+        "taxon": "Mus musculus",
+        "title": "COUPOE, replicate 2",
+        "summary": "Peyer's patches",
+        "runs_srr": [
+          "SRR22270424",
+          "SRR22270425",
+          "SRR22270426",
+          "SRR22270427"
+        ]
+      }
+    ]
+  },
+  "GSE178826": {
+    "title": "Multi-omic analysis defines the first microRNA atlas across all small intestinal epithelial lineages and reveals microRNA markers of almost all major cell types",
+    "summary": "MicroRNA-mediated regulation is critical for the proper development and function of the small intestinal epithelium.  However, it is not yet known which microRNAs are expressed in which cell types of the small intestinal epithelium.  To bridge this important knowledge gap, in this study we performed a comprehensive profiling analysis of microRNAs in all major epithelial cell types of the mouse small intestine.  We first used flow cytometry and fluorescence activated cell sorting with multiple different reporter mouse models to isolate intestinal stem cells (ISCs), enterocytes, goblet cells, Paneth cells, enteroendocrine cells (EECs), tuft cells and secretory progenitor cells.  We then subjected these cell populations to small RNA-seq.  We identified highly enriched microRNA markers for every major small intestinal epithelial cell type except goblet cells. Interestingly, one of the secretory progenitor cell enriched microRNAs, miR-672, is deleted in hominin species.  Several of these lineage-enriched microRNAs (LEMs) were observed to be embedded in annotated host genes.  We used chromatin run-on sequencing (ChRO-seq) to determine which of these LEMs are likely co-transcribed with their host genes.  We then employed single cell RNA-sequencing (scRNA-seq) in order to define the cell type specificity of the host genes, and by proxy, the LEMs as well.  Finally, using four additional in vivo models, we validated that miR-375 is highly enriched in secretory progenitor cells that give rise to enteroendocrine and tuft cells and that miR-152 is a Paneth cell-specific microRNA.",
+    "samples": [
+      {
+        "GSM": "GSM5398413",
+        "SRX": "SRX11218808",
+        "taxon": "Mus musculus",
+        "title": "CD24Low sample 2",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR14904104"
+        ]
+      },
+      {
+        "GSM": "GSM5398396",
+        "SRX": "SRX11218791",
+        "taxon": "Mus musculus",
+        "title": "Wild type sample, set1",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR14904081",
+          "SRR14904082",
+          "SRR14904083",
+          "SRR14904084"
+        ]
+      },
+      {
+        "GSM": "GSM5398416",
+        "SRX": "SRX11218811",
+        "taxon": "Mus musculus",
+        "title": "Paneth sample 3",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR14904107"
+        ]
+      },
+      {
+        "GSM": "GSM5398419",
+        "SRX": "SRX11218814",
+        "taxon": "Mus musculus",
+        "title": "goblet sample 2",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR14904110"
+        ]
+      },
+      {
+        "GSM": "GSM5398430",
+        "SRX": "SRX11218825",
+        "taxon": "Mus musculus",
+        "title": "Progenitor sample 2",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR14904121"
+        ]
+      },
+      {
+        "GSM": "GSM5398404",
+        "SRX": "SRX11218799",
+        "taxon": "Mus musculus",
+        "title": "Sox9 Negative sample 2",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR16249292"
+        ]
+      },
+      {
+        "GSM": "GSM5398427",
+        "SRX": "SRX11218822",
+        "taxon": "Mus musculus",
+        "title": "Tuft sample 3",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR14904118"
+        ]
+      },
+      {
+        "GSM": "GSM5398410",
+        "SRX": "SRX11218805",
+        "taxon": "Mus musculus",
+        "title": "Sox9 Negative sample 4",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR16249298"
+        ]
+      },
+      {
+        "GSM": "GSM5398407",
+        "SRX": "SRX11218802",
+        "taxon": "Mus musculus",
+        "title": "Sox9 Negative sample 3",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR16249295"
+        ]
+      },
+      {
+        "GSM": "GSM5398414",
+        "SRX": "SRX11218809",
+        "taxon": "Mus musculus",
+        "title": "CD24Low sample 3",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR14904105"
+        ]
+      },
+      {
+        "GSM": "GSM5398408",
+        "SRX": "SRX11218803",
+        "taxon": "Mus musculus",
+        "title": "Sox9 High sample 4",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR16249296"
+        ]
+      },
+      {
+        "GSM": "GSM5398411",
+        "SRX": "SRX11218806",
+        "taxon": "Mus musculus",
+        "title": "Paneth sample 2",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR14904102"
+        ]
+      },
+      {
+        "GSM": "GSM5398431",
+        "SRX": "SRX11218826",
+        "taxon": "Mus musculus",
+        "title": "Progenitor sample 3",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR14904122"
+        ]
+      },
+      {
+        "GSM": "GSM5398405",
+        "SRX": "SRX11218800",
+        "taxon": "Mus musculus",
+        "title": "Sox9 High sample 3",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR16249293"
+        ]
+      },
+      {
+        "GSM": "GSM5398428",
+        "SRX": "SRX11218823",
+        "taxon": "Mus musculus",
+        "title": "Tuft sample 4",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR14904119"
+        ]
+      },
+      {
+        "GSM": "GSM5398403",
+        "SRX": "SRX11218798",
+        "taxon": "Mus musculus",
+        "title": "Sox9 Low sample 2",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR16249291"
+        ]
+      },
+      {
+        "GSM": "GSM5398402",
+        "SRX": "SRX11218797",
+        "taxon": "Mus musculus",
+        "title": "Sox9 High sample 2",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR16249290"
+        ]
+      },
+      {
+        "GSM": "GSM5398422",
+        "SRX": "SRX11218817",
+        "taxon": "Mus musculus",
+        "title": "Lgr5 High sample 1",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR14904113"
+        ]
+      },
+      {
+        "GSM": "GSM5398406",
+        "SRX": "SRX11218801",
+        "taxon": "Mus musculus",
+        "title": "Sox9 Low sample 3",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR16249294"
+        ]
+      },
+      {
+        "GSM": "GSM5398426",
+        "SRX": "SRX11218821",
+        "taxon": "Mus musculus",
+        "title": "Tuft sample 1",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR14904117"
+        ]
+      },
+      {
+        "GSM": "GSM5398425",
+        "SRX": "SRX11218820",
+        "taxon": "Mus musculus",
+        "title": "Paneth sample 6",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR14904116"
+        ]
+      },
+      {
+        "GSM": "GSM5398399",
+        "SRX": "SRX11218794",
+        "taxon": "Mus musculus",
+        "title": "Sox9 High sample 1",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR16249287"
+        ]
+      },
+      {
+        "GSM": "GSM5398423",
+        "SRX": "SRX11218818",
+        "taxon": "Mus musculus",
+        "title": "Lgr5 High sample 2",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR14904114"
+        ]
+      },
+      {
+        "GSM": "GSM5398429",
+        "SRX": "SRX11218824",
+        "taxon": "Mus musculus",
+        "title": "Progenitor sample 1",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR14904120"
+        ]
+      },
+      {
+        "GSM": "GSM5398397",
+        "SRX": "SRX11218792",
+        "taxon": "Mus musculus",
+        "title": "Wild type sample, set2",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR14904085",
+          "SRR14904086",
+          "SRR14904087",
+          "SRR14904088"
+        ]
+      },
+      {
+        "GSM": "GSM5398400",
+        "SRX": "SRX11218795",
+        "taxon": "Mus musculus",
+        "title": "Sox9 Low sample 1",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR16249288"
+        ]
+      },
+      {
+        "GSM": "GSM5398421",
+        "SRX": "SRX11218816",
+        "taxon": "Mus musculus",
+        "title": "goblet sample 4",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR14904112"
+        ]
+      },
+      {
+        "GSM": "GSM5398417",
+        "SRX": "SRX11218812",
+        "taxon": "Mus musculus",
+        "title": "Paneth sample 4",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR14904108"
+        ]
+      },
+      {
+        "GSM": "GSM5398424",
+        "SRX": "SRX11218819",
+        "taxon": "Mus musculus",
+        "title": "Paneth sample 5",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR14904115"
+        ]
+      },
+      {
+        "GSM": "GSM5398398",
+        "SRX": "SRX11218793",
+        "taxon": "Mus musculus",
+        "title": "Paneth sample 1",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR14904089"
+        ]
+      },
+      {
+        "GSM": "GSM5398418",
+        "SRX": "SRX11218813",
+        "taxon": "Mus musculus",
+        "title": "goblet sample 1",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR14904109"
+        ]
+      },
+      {
+        "GSM": "GSM5398409",
+        "SRX": "SRX11218804",
+        "taxon": "Mus musculus",
+        "title": "Sox9 Low sample 4",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR16249297"
+        ]
+      },
+      {
+        "GSM": "GSM5398420",
+        "SRX": "SRX11218815",
+        "taxon": "Mus musculus",
+        "title": "goblet sample 3",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR14904111"
+        ]
+      },
+      {
+        "GSM": "GSM5398401",
+        "SRX": "SRX11218796",
+        "taxon": "Mus musculus",
+        "title": "Sox9 Negative sample 1",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR16249289"
+        ]
+      },
+      {
+        "GSM": "GSM5398412",
+        "SRX": "SRX11218807",
+        "taxon": "Mus musculus",
+        "title": "CD24Low sample 1",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR14904103"
+        ]
+      },
+      {
+        "GSM": "GSM5398415",
+        "SRX": "SRX11218810",
+        "taxon": "Mus musculus",
+        "title": "CD24Low sample 4",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR14904106"
+        ]
+      }
+    ]
+  },
+  "GSE173887": {
+    "title": "Single cell transcriptomic studies of mouse colonic lamina propria cells from wildtype or RORgtS182A mutant mice",
+    "summary": "The evolutionarily conserved serine 182 residue on ROR\u03b3t is phosphorylated. Here, we report that this residue is dispensable for thymic T cell development, but essential for maintaining proper balance of Th17-Treg populations in the colon. Single-cell RNA-seq (scRNA-seq) revealed that serine 182 residue on ROR\u03b3t is critical for restricting IL-1b-mediated Th17 activities and promoting anti-inflammation cytokine IL-10 production in Lymphoid tissue (LT)-like ROR\u03b3t+Foxp3+ regulatory T cells in inflamed tissues.",
+    "samples": [
+      {
+        "GSM": "GSM5282377",
+        "SRX": "SRX10777135",
+        "taxon": "Mus musculus",
+        "title": "WT_0112",
+        "summary": "Colonic lamina propria",
+        "runs_srr": [
+          "SRR14425943"
+        ]
+      },
+      {
+        "GSM": "GSM5282383",
+        "SRX": "SRX10777141",
+        "taxon": "Mus musculus",
+        "title": "S203AKI_1652_DSS",
+        "summary": "Colonic lamina propria",
+        "runs_srr": [
+          "SRR14425949"
+        ]
+      },
+      {
+        "GSM": "GSM5282380",
+        "SRX": "SRX10777138",
+        "taxon": "Mus musculus",
+        "title": "S203AKI_1810",
+        "summary": "Colonic lamina propria",
+        "runs_srr": [
+          "SRR14425946"
+        ]
+      },
+      {
+        "GSM": "GSM5282378",
+        "SRX": "SRX10777136",
+        "taxon": "Mus musculus",
+        "title": "WT_1813",
+        "summary": "Colonic lamina propria",
+        "runs_srr": [
+          "SRR14425944"
+        ]
+      },
+      {
+        "GSM": "GSM5282384",
+        "SRX": "SRX10777142",
+        "taxon": "Mus musculus",
+        "title": "S203AKI_1670_DSS",
+        "summary": "Colonic lamina propria",
+        "runs_srr": [
+          "SRR14425950"
+        ]
+      },
+      {
+        "GSM": "GSM5282381",
+        "SRX": "SRX10777139",
+        "taxon": "Mus musculus",
+        "title": "WT_1653_DSS",
+        "summary": "Colonic lamina propria",
+        "runs_srr": [
+          "SRR14425947"
+        ]
+      },
+      {
+        "GSM": "GSM5282382",
+        "SRX": "SRX10777140",
+        "taxon": "Mus musculus",
+        "title": "WT_1669_DSS",
+        "summary": "Colonic lamina propria",
+        "runs_srr": [
+          "SRR14425948"
+        ]
+      },
+      {
+        "GSM": "GSM5282379",
+        "SRX": "SRX10777137",
+        "taxon": "Mus musculus",
+        "title": "S203AKI_0110",
+        "summary": "Colonic lamina propria",
+        "runs_srr": [
+          "SRR14425945"
+        ]
+      }
+    ]
+  },
+  "GSE172261": {
+    "title": "Single cell RNAseq of mouse colon stroma during chronic DSS and homeostatic condition",
+    "summary": "We implemented a murine model of intestinal inflammation based on oral administration of multiple cycles of low dose dextran sulfate sodium (DSS) to induce epithelial injury and ECM deposition. Mice were subjected to 3 repetitive cycles of DSS displayed progressive accumulation of immune cell infiltrates associated with excessive deposition of collagen fibers. Lamina propria cells from water-fed and DSS-fed mice were isolated using enzymatic digestion,  and enriched for stromal cells by FACS using antibodies excluding hematopoietic cells (CD45), epithelial cells (EpCAM), and erythrocytes. Prepared single cell suspensions were then profiled using the 10x Chromium V2 droplet-based single cell RNA sequencing platform. Tissues were collected from proximal and distal colon.",
+    "samples": [
+      {
+        "GSM": "GSM5251042",
+        "SRX": "SRX10624839",
+        "taxon": "Mus musculus",
+        "title": "M2_Distal_DSS",
+        "summary": "Mouse distal colon",
+        "runs_srr": [
+          "SRR14263020",
+          "SRR14263021"
+        ]
+      },
+      {
+        "GSM": "GSM5251045",
+        "SRX": "SRX10624842",
+        "taxon": "Mus musculus",
+        "title": "M2_Proximal_H2O",
+        "summary": "Mouse proximal colon",
+        "runs_srr": [
+          "SRR14263026",
+          "SRR14263027"
+        ]
+      },
+      {
+        "GSM": "GSM5251039",
+        "SRX": "SRX10624836",
+        "taxon": "Mus musculus",
+        "title": "M1_Distal_H2O",
+        "summary": "Mouse distal colon",
+        "runs_srr": [
+          "SRR14263014"
+        ]
+      },
+      {
+        "GSM": "GSM5251048",
+        "SRX": "SRX10624845",
+        "taxon": "Mus musculus",
+        "title": "M3_Proximal_DSS",
+        "summary": "Mouse proximal colon",
+        "runs_srr": [
+          "SRR14263032",
+          "SRR14263033"
+        ]
+      },
+      {
+        "GSM": "GSM5251040",
+        "SRX": "SRX10624837",
+        "taxon": "Mus musculus",
+        "title": "M1_Proximal_DSS",
+        "summary": "Mouse proximal colon",
+        "runs_srr": [
+          "SRR14263015",
+          "SRR14263016",
+          "SRR14263017",
+          "SRR14263018"
+        ]
+      },
+      {
+        "GSM": "GSM5251043",
+        "SRX": "SRX10624840",
+        "taxon": "Mus musculus",
+        "title": "M2_Distal_H2O",
+        "summary": "Mouse distal colon",
+        "runs_srr": [
+          "SRR14263022",
+          "SRR14263023"
+        ]
+      },
+      {
+        "GSM": "GSM5251046",
+        "SRX": "SRX10624843",
+        "taxon": "Mus musculus",
+        "title": "M3_Distal_DSS",
+        "summary": "Mouse distal colon",
+        "runs_srr": [
+          "SRR14263028",
+          "SRR14263029"
+        ]
+      },
+      {
+        "GSM": "GSM5251049",
+        "SRX": "SRX10624846",
+        "taxon": "Mus musculus",
+        "title": "M3_Proximal_H2O",
+        "summary": "Mouse proximal colon",
+        "runs_srr": [
+          "SRR14263034",
+          "SRR14263035"
+        ]
+      },
+      {
+        "GSM": "GSM5251041",
+        "SRX": "SRX10624838",
+        "taxon": "Mus musculus",
+        "title": "M1_Proximal_H2O",
+        "summary": "Mouse proximal colon",
+        "runs_srr": [
+          "SRR14263019"
+        ]
+      },
+      {
+        "GSM": "GSM5251044",
+        "SRX": "SRX10624841",
+        "taxon": "Mus musculus",
+        "title": "M2_Proximal_DSS",
+        "summary": "Mouse proximal colon",
+        "runs_srr": [
+          "SRR14263024",
+          "SRR14263025"
+        ]
+      },
+      {
+        "GSM": "GSM5251038",
+        "SRX": "SRX10624835",
+        "taxon": "Mus musculus",
+        "title": "M1_Distal_DSS",
+        "summary": "Mouse distal colon",
+        "runs_srr": [
+          "SRR14263010",
+          "SRR14263011",
+          "SRR14263012",
+          "SRR14263013"
+        ]
+      },
+      {
+        "GSM": "GSM5251047",
+        "SRX": "SRX10624844",
+        "taxon": "Mus musculus",
+        "title": "M3_Distal_H2O",
+        "summary": "Mouse distal colon",
+        "runs_srr": [
+          "SRR14263030",
+          "SRR14263031"
+        ]
+      }
+    ]
+  },
+  "GSE147319": {
+    "title": "Diet-induced alteration of intestinal stem cell function underlies obesity and pre-diabetes in mice",
+    "summary": "This dataset consists of single-cell RNA-seq (10X) data from small intestinal crypts of healthy and HFHSD induced obese mice Foxa2-FVF/FVF mice and from small intestinal villi of healthy and HFHSD induced obese C57BL/6N mice. Mice were fed a HFHSD for 12 weeks. Intestinal crypt cell samples were FVF-enriched with FVF+ cells in a 1:1 ratio (50% FVF+, 50% FVF-) before sequencing.",
+    "samples": [
+      {
+        "GSM": "GSM4425806",
+        "SRX": "SRX7965270",
+        "taxon": "Mus musculus",
+        "title": "HFD_3",
+        "summary": "Single cells of small intestinal crypts",
+        "runs_srr": [
+          "SRR11363882"
+        ]
+      },
+      {
+        "GSM": "GSM4425803",
+        "SRX": "SRX7965267",
+        "taxon": "Mus musculus",
+        "title": "CD_3",
+        "summary": "Single cells of small intestinal crypts",
+        "runs_srr": [
+          "SRR11363879"
+        ]
+      },
+      {
+        "GSM": "GSM4425804",
+        "SRX": "SRX7965268",
+        "taxon": "Mus musculus",
+        "title": "HFD_1",
+        "summary": "Single cells of small intestinal crypts",
+        "runs_srr": [
+          "SRR11363880"
+        ]
+      },
+      {
+        "GSM": "GSM4425801",
+        "SRX": "SRX7965265",
+        "taxon": "Mus musculus",
+        "title": "CD_1",
+        "summary": "Single cells of small intestinal crypts",
+        "runs_srr": [
+          "SRR11363877"
+        ]
+      },
+      {
+        "GSM": "GSM5536455",
+        "SRX": "SRX11908178",
+        "taxon": "Mus musculus",
+        "title": "HFD_villus",
+        "summary": "Single cells of small intestinal villi",
+        "runs_srr": [
+          "SRR15610888"
+        ]
+      },
+      {
+        "GSM": "GSM5536454",
+        "SRX": "SRX11908177",
+        "taxon": "Mus musculus",
+        "title": "CD_villus",
+        "summary": "Single cells of small intestinal villi",
+        "runs_srr": [
+          "SRR15610887"
+        ]
+      },
+      {
+        "GSM": "GSM4425805",
+        "SRX": "SRX7965269",
+        "taxon": "Mus musculus",
+        "title": "HFD_2",
+        "summary": "Single cells of small intestinal crypts",
+        "runs_srr": [
+          "SRR11363881"
+        ]
+      },
+      {
+        "GSM": "GSM4425802",
+        "SRX": "SRX7965266",
+        "taxon": "Mus musculus",
+        "title": "CD_2",
+        "summary": "Single cells of small intestinal crypts",
+        "runs_srr": [
+          "SRR11363878"
+        ]
+      }
+    ]
+  },
+  "GSE158859": {
+    "title": "Interepithelial inflammatory crosstalk mediated by stromal fibroblast communication through hyaluronan [dataset 1]",
+    "summary": "Inflammation of epithelial structures frequently leads to disease at distal organs, but the mechanism responsible for this is unknown. We report evidence that digestion of hyaluronan in the extracellular matrix signals distal stromal cells to become primed for increased inflammation. By applying transgenic mouse models and single cell RNA sequencing of mouse and human tissues we demonstrate that skin injury or infection promotes an adipogenic response in distinct populations of distant submucosal fibroblasts of the colon. This response can be recapitulated without skin inflammation by expression of hyaluronidase in skin that promotes a highly amplified and frequently fatal host response to intestinal injury. Our results uncover an innate system of communication between epithelial stroma that is not initiated by immunocyte trafficking or cytokine signaling.",
+    "samples": [
+      {
+        "GSM": "GSM4812301",
+        "SRX": "SRX9227731",
+        "taxon": "Mus musculus",
+        "title": "wound_scRNAseq",
+        "summary": "PDGFRA+ mouse colon fibroblasts",
+        "runs_srr": [
+          "SRR12755776"
+        ]
+      },
+      {
+        "GSM": "GSM4812300",
+        "SRX": "SRX9227730",
+        "taxon": "Mus musculus",
+        "title": "control_scRNAseq",
+        "summary": "PDGFRA+ mouse colon fibroblasts",
+        "runs_srr": [
+          "SRR12755775"
+        ]
+      }
+    ]
+  },
+  "GSE152325": {
+    "title": "Wnt/PCP-primed intestinal stem cells directly differentiate into enteroendocrine or Paneth cells",
+    "summary": "We performed 7 single-cell RNAseq experiments to identify progenitor cell populations in the small intestine. To also capture rare intestinal cell populations such as stem cells and secretory cells we not only analyzed crypt cells from wildtype mice but also used two reporter mouse lines: i) the FltpZV/+ mouse line of which we mixed live crypt cells with Fltp Venus reporter (FVR) positive cells at different ratios and ii) Foxa2-Venus fusion (FVF) reporter mice. The FVF-enriched samples are part of another manuscript (link to GEO# will be provided). Using this FACS-based enrichment strategy, we could identify a Paneth cell-primed ISC population and potential progenitor populations for all intestinal lineages. To assess the role of Wnt/PCP signaling for enteroendocrine and Paneth cell differentiation, we performed 4 single-cell RNAseq experiments from crypt cells of Celsr1crsh/+; FltpZV/ZV compound mutant mice. When comparing control and mutant cells we found specific transcriptional alterations in the Paneth cell lineage.",
+    "samples": [
+      {
+        "GSM": "GSM4612846",
+        "SRX": "SRX8533263",
+        "taxon": "Mus musculus",
+        "title": "small intestinal crypt cells, FVF enrichment, 50:50 mix with live crypt cells [CD1]",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR11999803"
+        ]
+      },
+      {
+        "GSM": "GSM4612838",
+        "SRX": "SRX8533255",
+        "taxon": "Mus musculus",
+        "title": "small intestinal crypt cells, FVR enrichment, 10:90 mix with whole crypt cells [Control_4_FVR]",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR11999739",
+          "SRR11999740",
+          "SRR11999741",
+          "SRR11999742",
+          "SRR11999743",
+          "SRR11999744",
+          "SRR11999745",
+          "SRR11999746"
+        ]
+      },
+      {
+        "GSM": "GSM4612835",
+        "SRX": "SRX8533252",
+        "taxon": "Mus musculus",
+        "title": "small intestinal crypt cells [Control_1]",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR11999715",
+          "SRR11999716",
+          "SRR11999717",
+          "SRR11999718",
+          "SRR11999719",
+          "SRR11999720",
+          "SRR11999721",
+          "SRR11999722"
+        ]
+      },
+      {
+        "GSM": "GSM4612837",
+        "SRX": "SRX8533254",
+        "taxon": "Mus musculus",
+        "title": "small intestinal crypt cells, FVR enrichment, 10:90 mix with whole crypt cells [Control_3_FVR]",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR11999731",
+          "SRR11999732",
+          "SRR11999733",
+          "SRR11999734",
+          "SRR11999735",
+          "SRR11999736",
+          "SRR11999737",
+          "SRR11999738"
+        ]
+      },
+      {
+        "GSM": "GSM4612843",
+        "SRX": "SRX8533260",
+        "taxon": "Mus musculus",
+        "title": "small intestinal crypt cells [Mutant_2]",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR11999779",
+          "SRR11999780",
+          "SRR11999781",
+          "SRR11999782",
+          "SRR11999783",
+          "SRR11999784",
+          "SRR11999785",
+          "SRR11999786"
+        ]
+      },
+      {
+        "GSM": "GSM4612836",
+        "SRX": "SRX8533253",
+        "taxon": "Mus musculus",
+        "title": "small intestinal crypt cells [Control_2]",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR11999723",
+          "SRR11999724",
+          "SRR11999725",
+          "SRR11999726",
+          "SRR11999727",
+          "SRR11999728",
+          "SRR11999729",
+          "SRR11999730"
+        ]
+      },
+      {
+        "GSM": "GSM4612840",
+        "SRX": "SRX8533257",
+        "taxon": "Mus musculus",
+        "title": "small intestinal crypt cells [Control_6]",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR11999755",
+          "SRR11999756",
+          "SRR11999757",
+          "SRR11999758",
+          "SRR11999759",
+          "SRR11999760",
+          "SRR11999761",
+          "SRR11999762"
+        ]
+      },
+      {
+        "GSM": "GSM4612839",
+        "SRX": "SRX8533256",
+        "taxon": "Mus musculus",
+        "title": "small intestinal crypt cells, FVR enrichment, 50:50 mix with whole crypt cells [Control_5_FVR]",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR11999747",
+          "SRR11999748",
+          "SRR11999749",
+          "SRR11999750",
+          "SRR11999751",
+          "SRR11999752",
+          "SRR11999753",
+          "SRR11999754"
+        ]
+      },
+      {
+        "GSM": "GSM4612842",
+        "SRX": "SRX8533259",
+        "taxon": "Mus musculus",
+        "title": "small intestinal crypt cells [Mutant_1]",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR11999771",
+          "SRR11999772",
+          "SRR11999773",
+          "SRR11999774",
+          "SRR11999775",
+          "SRR11999776",
+          "SRR11999777",
+          "SRR11999778"
+        ]
+      },
+      {
+        "GSM": "GSM4612841",
+        "SRX": "SRX8533258",
+        "taxon": "Mus musculus",
+        "title": "small intestinal crypt cells, FVR enrichment, 90:10 mix with whole crypt cells [Control_7_FVR]",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR11999763",
+          "SRR11999764",
+          "SRR11999765",
+          "SRR11999766",
+          "SRR11999767",
+          "SRR11999768",
+          "SRR11999769",
+          "SRR11999770"
+        ]
+      },
+      {
+        "GSM": "GSM4612844",
+        "SRX": "SRX8533261",
+        "taxon": "Mus musculus",
+        "title": "small intestinal crypt cells, FVR enrichment, 10:90 mix with whole crypt cells [Mutant_3_FVR]",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR11999787",
+          "SRR11999788",
+          "SRR11999789",
+          "SRR11999790",
+          "SRR11999791",
+          "SRR11999792",
+          "SRR11999793",
+          "SRR11999794"
+        ]
+      },
+      {
+        "GSM": "GSM4612847",
+        "SRX": "SRX8533264",
+        "taxon": "Mus musculus",
+        "title": "small intestinal crypt cells, FVF enrichment, 50:50 mix with live crypt cells [CD2]",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR11999804"
+        ]
+      },
+      {
+        "GSM": "GSM4612845",
+        "SRX": "SRX8533262",
+        "taxon": "Mus musculus",
+        "title": "small intestinal crypt cells, FVR enrichment, 10:90 mix with whole crypt cells [Mutant_4_FVR]",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR11999795",
+          "SRR11999796",
+          "SRR11999797",
+          "SRR11999798",
+          "SRR11999799",
+          "SRR11999800",
+          "SRR11999801",
+          "SRR11999802"
+        ]
+      },
+      {
+        "GSM": "GSM4612848",
+        "SRX": "SRX8533265",
+        "taxon": "Mus musculus",
+        "title": "small intestinal crypt cells, FVF enrichment, 50:50 mix with live crypt cells [CD3 ]",
+        "summary": "small intestine",
+        "runs_srr": [
+          "SRR11999805"
+        ]
+      }
+    ]
+  },
+  "GSE151152": {
+    "title": "Transcriptional profiling of ileal lamina propria lymphocytes of wild type and Lyz1KO mice by single-cell RNA-seq",
+    "summary": "Paneth cells express Lyz1, a gene encoding for lysozyme. To investigate the transcriptomic profiles of wild type and Lyz1-knockout mouse ileal lamina propria cells, we performed single-cell RNA-seq.",
+    "samples": [
+      {
+        "GSM": "GSM4567342",
+        "SRX": "SRX8393320",
+        "taxon": "Mus musculus",
+        "title": "WT_ ileal LPL and stromal cells",
+        "summary": "Ileum",
+        "runs_srr": [
+          "SRR11842973",
+          "SRR11842974"
+        ]
+      },
+      {
+        "GSM": "GSM4567343",
+        "SRX": "SRX8393321",
+        "taxon": "Mus musculus",
+        "title": "Lyz1KO_ileal LPL and stromal cells",
+        "summary": "Ileum",
+        "runs_srr": [
+          "SRR11842975",
+          "SRR11842976"
+        ]
+      }
+    ]
+  },
+  "GSE131630": {
+    "title": "Single-cell RNA-seq of the intestine sample of ICR mice treated with busulfan and/or Alginate Oligosaccharides",
+    "summary": "We profiled a single-cell RNA-seq on ICR mouse intestine treated with busulfan and or Alginate Oligosaccharides (AOS) from 3 weeks of age to 5 weeks of age (for 2 weeks) to study the rescue effect of AOS on the intestine development disrupted by busulfan. We collected single cell from intestine from the four groups AOS 0 (control), B+A 0 (busulfan alone), B+A 10 (busulfan plus AOS 10 mg/kg Body Weight). The the cells were further captured with 10x Genomics based single-cell system. By using single-cell RNA seq, we found busulfan damaged intestinal cells. AOS significantly improved the intestinal cell junction and microvilin formation. Besides, we provide candidate master regulons regulated by AOS. Our data here offers the opportunity for improving  intestine under stress.",
+    "samples": [
+      {
+        "GSM": "GSM3791466",
+        "SRX": "SRX5883032",
+        "taxon": "Mus musculus",
+        "title": "scRNA_seq_B+A0_Intestine",
+        "summary": "AOS10_Intestine",
+        "runs_srr": [
+          "SRR9108452"
+        ]
+      },
+      {
+        "GSM": "GSM3791467",
+        "SRX": "SRX5883033",
+        "taxon": "Mus musculus",
+        "title": "scRNA_seq_B+A10_Intestine",
+        "summary": "B+A0_Intestine",
+        "runs_srr": [
+          "SRR9108453"
+        ]
+      },
+      {
+        "GSM": "GSM3791465",
+        "SRX": "SRX5883031",
+        "taxon": "Mus musculus",
+        "title": "scRNA_seq_AOS0_Intestine",
+        "summary": "AOS0_Intestine",
+        "runs_srr": [
+          "SRR9108451"
+        ]
+      }
+    ]
+  },
+  "GSE148366": {
+    "title": "Homeostatic mini-intestines through scaffold-guided organoid morphogenesis",
+    "summary": "Epithelial organoids, such as those derived from stem cells of the intestine, have great potential for modelling tissue and disease biology. However, the approaches that are used at present to derive these organoids in three-dimensional matrices result in stochastically developing tissues with a closed, cystic architecture that restricts lifespan and size, limits experimental manipulation and prohibits homeostasis. Here, by using tissue engineering and the intrinsic self-organization properties of cells, we induce intestinal stem cells to form tube-shaped epithelia with an accessible lumen and a similar spatial arrangement of crypt- and villus-like domains to that in vivo. When connected to an external pumping system, the mini-gut tubes are perfusable; this allows the continuous removal of dead cells to prolong tissue lifespan by several weeks, and also enables the tubes to be colonized with microorganisms for modelling host-microorganism interactions. The mini-intestines include rare, specialized cell types that are seldom found in conventional organoids. They retain key physiological hallmarks of the intestine and have a notable capacity to regenerate. Our concept for extrinsically guiding the self-organization of stem cells into functional organoids-on-a-chip is broadly applicable and will enable the attainment of more physiologically relevant organoid shapes, sizes and functions. ",
+    "samples": [
+      {
+        "GSM": "GSM4462958",
+        "SRX": "SRX8089814",
+        "taxon": "Mus musculus",
+        "title": "MinigutsOld",
+        "summary": "Small intestinal mini-guts",
+        "runs_srr": [
+          "SRR11518407",
+          "SRR11518408",
+          "SRR11518409",
+          "SRR11518410",
+          "SRR11518411",
+          "SRR11518412",
+          "SRR11518413",
+          "SRR11518414"
+        ]
+      },
+      {
+        "GSM": "GSM4462959",
+        "SRX": "SRX8089815",
+        "taxon": "Mus musculus",
+        "title": "MinigutsCrypto",
+        "summary": "Small intestinal mini-guts",
+        "runs_srr": [
+          "SRR11518415",
+          "SRR11518416",
+          "SRR11518417",
+          "SRR11518418",
+          "SRR11518419",
+          "SRR11518420",
+          "SRR11518421",
+          "SRR11518422"
+        ]
+      },
+      {
+        "GSM": "GSM4462957",
+        "SRX": "SRX8089813",
+        "taxon": "Mus musculus",
+        "title": "MinigutsYoung",
+        "summary": "Small intestinal mini-guts",
+        "runs_srr": [
+          "SRR11518399",
+          "SRR11518400",
+          "SRR11518401",
+          "SRR11518402",
+          "SRR11518403",
+          "SRR11518404",
+          "SRR11518405",
+          "SRR11518406"
+        ]
+      },
+      {
+        "GSM": "GSM4462956",
+        "SRX": "SRX8089812",
+        "taxon": "Mus musculus",
+        "title": "Organoids",
+        "summary": "Small intestinal organoids",
+        "runs_srr": [
+          "SRR11518391",
+          "SRR11518392",
+          "SRR11518393",
+          "SRR11518394",
+          "SRR11518395",
+          "SRR11518396",
+          "SRR11518397",
+          "SRR11518398"
+        ]
+      }
+    ]
+  },
+  "GSE114374": {
+    "title": "Composition of the Colonic Mesenchyme and the Nature of its Plasticity in Inflammatory Bowel Disease",
+    "summary": "10x Chromium single cell RNA-Seq of colonic mesenchyme cell populations in health and Ulcerative Colitis in human patients and health in DSS-induced colitis in murine colon",
+    "samples": [
+      {
+        "GSM": "GSM3140600",
+        "SRX": "SRX4079059",
+        "taxon": "Mus musculus",
+        "title": "Mouse_DSS_1",
+        "summary": "Colon",
+        "runs_srr": [
+          "SRR7159843"
+        ]
+      },
+      {
+        "GSM": "GSM3140598",
+        "SRX": "SRX4079057",
+        "taxon": "Mus musculus",
+        "title": "Mouse_HC_2",
+        "summary": "Colon",
+        "runs_srr": [
+          "SRR7159841"
+        ]
+      },
+      {
+        "GSM": "GSM3140601",
+        "SRX": "SRX4079060",
+        "taxon": "Mus musculus",
+        "title": "Mouse_DSS_2",
+        "summary": "Colon",
+        "runs_srr": [
+          "SRR7159844"
+        ]
+      },
+      {
+        "GSM": "GSM3140594",
+        "SRX": "SRX4079053",
+        "taxon": "Homo sapiens",
+        "title": "Human_HC_2",
+        "summary": "Colon",
+        "runs_srr": [
+          "SRR7159837"
+        ]
+      },
+      {
+        "GSM": "GSM3140597",
+        "SRX": "SRX4079056",
+        "taxon": "Mus musculus",
+        "title": "Mouse_HC_1",
+        "summary": "Colon",
+        "runs_srr": [
+          "SRR7159840"
+        ]
+      },
+      {
+        "GSM": "GSM3140595",
+        "SRX": "SRX4079054",
+        "taxon": "Homo sapiens",
+        "title": "Human_UC_1",
+        "summary": "Colon",
+        "runs_srr": [
+          "SRR7159838"
+        ]
+      },
+      {
+        "GSM": "GSM3140593",
+        "SRX": "SRX4079052",
+        "taxon": "Homo sapiens",
+        "title": "Human_HC_1",
+        "summary": "Colon",
+        "runs_srr": [
+          "SRR7159836"
+        ]
+      },
+      {
+        "GSM": "GSM3140596",
+        "SRX": "SRX4079055",
+        "taxon": "Homo sapiens",
+        "title": "Human_UC_2",
+        "summary": "Colon",
+        "runs_srr": [
+          "SRR7159839"
+        ]
+      },
+      {
+        "GSM": "GSM3140599",
+        "SRX": "SRX4079058",
+        "taxon": "Mus musculus",
+        "title": "Mouse_HC_3",
+        "summary": "Colon",
+        "runs_srr": [
+          "SRR7159842"
+        ]
+      },
+      {
+        "GSM": "GSM3140602",
+        "SRX": "SRX4079061",
+        "taxon": "Mus musculus",
+        "title": "Mouse_DSS_3",
+        "summary": "Colon",
+        "runs_srr": [
+          "SRR7159845"
+        ]
+      }
+    ]
+  }
+}
