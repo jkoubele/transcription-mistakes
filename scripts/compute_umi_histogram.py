@@ -7,7 +7,7 @@ import pandas as pd
 from tqdm import tqdm
 import numpy as np
 
-MIN_VALID_UMI_LNEGTH = 8
+MIN_VALID_UMI_LENGTH = 8
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -30,7 +30,7 @@ if __name__ == "__main__":
     for read in tqdm(bamfile):
         cell_barcode = read.get_tag('CB')
         umi = read.get_tag('UB')
-        if len(umi) < MIN_VALID_UMI_LNEGTH:
+        if len(umi) < MIN_VALID_UMI_LENGTH:
             continue  # filtering out reads with empty UMI tag, which can be '-' or similar
         if cell_barcode in umis_by_cell:
             umis_by_cell[cell_barcode][umi] += 1
