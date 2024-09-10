@@ -33,7 +33,8 @@ docker run --rm \
 --soloType CB_UMI_Simple \
 --genomeDir /genome_folder/STAR_index \
 --soloCBwhitelist /repo_folder/barcodes/BARCODES_FILE \
---soloUMIlen 12 \
+--soloUMIlen UMI_LENGTH \
+--soloBarcodeReadLength 0 \
 --readFilesIn READS_2 \
 READS_1 \
 --readFilesCommand zcat \

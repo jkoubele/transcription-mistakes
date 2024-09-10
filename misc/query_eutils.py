@@ -5,6 +5,7 @@ import json
 from tqdm import tqdm
 import pandas as pd
 from pathlib import Path
+from paths import repository_path
 
 
 def get_response(url):
@@ -17,13 +18,12 @@ if __name__ == "__main__":
     einfo_json_sra = get_response(einfo_url + "&db=sra").json()
     einfo_json_gds = get_response(einfo_url + "&db=gds").json()
 
-    sc_datasets = pd.read_csv(Path('metadata/sc_datasets.tsv'), sep='\t')
+    sc_datasets = pd.read_csv(repository_path / Path('metadata/sc_datasets.tsv'), sep='\t')
     gse_list = sc_datasets['GSE'].to_list()
 
     res = {}
 
     for gse in tqdm(gse_list, desc='Querying eutils'):
-
         search_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?api_key=bcad3816f864fe73bd100b1c8fb72b349008&retmode=json&"
         search_query = f"db=gds&term={gse}[GEO Accession]+AND+gse[Entry Type]"
         search_response_json = get_response(search_url + search_query).json()
@@ -82,5 +82,5 @@ if __name__ == "__main__":
                     'summary': gse_summary['summary'],
                     'samples': samples_info}
 
-    with open(Path('metadata/datasets_overview.json'), 'w') as file:
+    with open(repository_path / Path('metadata/datasets_overview.json'), 'w') as file:
         json.dump(res, file)
