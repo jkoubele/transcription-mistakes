@@ -1,7 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=umi_histograms
-#SBATCH --partition=all
+#SBATCH --job-name=split_bam
 #SBATCH --ntasks=15
 
 # Function to display usage information
@@ -57,12 +56,12 @@ fi
 # Create output folder if it doesn't exist
 mkdir "$output_folder" -p
 
-# Run UMI counting in docker
+# Run .bam splitting in docker
 docker run --rm \
 -v "$input_folder":/input_folder \
 -v "$output_folder":/output_folder \
 -v "$script_folder":/script_folder \
 --security-opt seccomp=unconfined \
-bioinfo_tools /bin/sh -c "python3 /script_folder/compute_umi_histogram.py \
+bioinfo_tools /bin/sh -c "python3 /script_folder/split_bam_by_barcode.py \
 --input_folder /input_folder --output_folder /output_folder; \
 chmod 777 -R /output_folder"
