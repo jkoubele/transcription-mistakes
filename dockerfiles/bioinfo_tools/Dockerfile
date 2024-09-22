@@ -58,5 +58,7 @@ ENV PATH="/bedtools2-2.31.1/bin:$PATH"
 # Install jq por parsing JSON
 RUN apt install jq -y
 
+# Install python packages
 COPY . .
 RUN pip3 install -r requirements.txt
+
