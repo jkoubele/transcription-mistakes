@@ -29,7 +29,9 @@ for (gse in gse_list){
 
     output_folder <- paste0("/data/cell_cycle_info/", gse, "/", gsm)
     dir.create(output_folder, recursive = TRUE)
-    write_delim(seurat_object@meta.data, paste0(output_folder, "/metadata.tsv"), delim = '\t')
+    write_delim(rownames_to_column(seurat_object@meta.data),
+                paste0(output_folder, "/metadata.tsv"),
+                delim = '\t')
 
   }
 }

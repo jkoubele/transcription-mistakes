@@ -44,14 +44,20 @@ if __name__ == "__main__":
     parser.add_argument('--output_folder',
                         default='/cellfile/datapublic/jkoubele/sc_data/detected_errors/GSE147319/GSM4425801',
                         help='Output JSON file will be written here.')
+    parser.add_argument('--output_folder_locations',
+                        default='/cellfile/datapublic/jkoubele/sc_data/mismatch_locations/GSE147319/GSM4425801',
+                        help='Output JSON file will be written here.')
     parser.add_argument('--reference_genome_fasta_file',
                         default='/cellfile/datapublic/jkoubele/reference_genomes/GRCm39/Mus_musculus.GRCm39.dna.primary_assembly.fa',
                         help='FASTA file of the reference genome that was used for the alignment of the input .bam files.')
     args = parser.parse_args()
-    Path(args.output_folder).mkdir(exist_ok=True, parents=True)
+    
     input_folder = Path(args.input_folder)
+    
     output_folder = Path(args.output_folder)
-    output_folder_locations = Path(args.output_folder.replace('detected_errors', 'mismatch_locations'))
+    output_folder.mkdir(exist_ok=True, parents=True)
+    
+    output_folder_locations = Path(args.output_folder_locations)
     output_folder_locations.mkdir(exist_ok=True, parents=True)
     # %%
     reference_genome_all_sequences = list(SeqIO.parse(open(args.reference_genome_fasta_file), 'fasta'))
@@ -68,12 +74,9 @@ if __name__ == "__main__":
         return base if base in DNA_ALPHABET else None
 
 
-    min_reads_per_evaluated_umi = 3
+    min_reads_per_evaluated_umi = 5
     min_umis_to_check_for_mutation = 10
-    for file in tqdm([file for file in input_folder.iterdir() if file.suffix == '.bam']):
-        num_evaluated = 0
-        num_evaluated_valid_base = 0
-        num_mismatches = 0
+    for file in tqdm([file for file in input_folder.iterdir() if file.suffix == '.bam']):        
         time_start = time()
 
         counter = defaultdict(lambda: {base: 0 for base in DNA_ALPHABET})
@@ -195,6 +198,5 @@ if __name__ == "__main__":
                 json.dump(mismatch_locations, file_out)
 
         time_end = time()
-        print()
-        print(f"{num_evaluated / 1e3}k")
+        print()        
         print(f"Time: {time_end - time_start}")

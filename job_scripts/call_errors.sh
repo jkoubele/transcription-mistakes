@@ -2,11 +2,11 @@
 
 #SBATCH --job-name=call_errors
 #SBATCH --partition=all
-#SBATCH --ntasks=5
+#SBATCH --ntasks=3
 
 # Function to display usage information
 usage() {
-    echo "Usage: $0 -i <input_folder> -o <output_folder>"
+    echo "Usage: $0 -i <input_folder> -o <output_folder> -l <output_folder_locations>"
     echo "[-r <repository_path>] [-g <genome_folder] [-f <fasta_file_name>]"
     exit 1
 }
@@ -20,7 +20,7 @@ fasta_file_name="Mus_musculus.GRCm39.dna.primary_assembly.fa"
 
 
 # Parse command line arguments
-while getopts ":i:o:r:g:f:" opt; do
+while getopts ":i:o:r:g:f:l:" opt; do
     case ${opt} in
         i )
             input_folder=$OPTARG
@@ -37,6 +37,9 @@ while getopts ":i:o:r:g:f:" opt; do
         f )
             fasta_file_name=$OPTARG
             ;;
+        l )
+            output_folder_locations=$OPTARG
+            ;;
         \? )
             echo "Invalid option: $OPTARG" 1>&2
             usage
@@ -50,7 +53,7 @@ done
 
 # Check if mandatory arguments are provided
 if [ -z "$input_folder" ] || [ -z "$output_folder" ] || [ -z "$repository_path" ] ||
-[ -z "$genome_folder" ] || [ -z "$fasta_file_name" ]; then
+[ -z "$genome_folder" ] || [ -z "$fasta_file_name" ] || [ -z "$output_folder_locations" ]; then
     echo "Error: Missing mandatory arguments"
     usage
 fi
@@ -72,10 +75,11 @@ mkdir "$output_folder" -p
 docker run --rm \
 -v "$input_folder":/input_folder \
 -v "$output_folder":/output_folder \
+-v "$output_folder_locations":/output_folder_locations \
 -v "$script_folder":/script_folder \
 -v "$genome_folder":/genome_folder \
 --security-opt seccomp=unconfined \
 bioinfo_tools /bin/sh -c "python3 /script_folder/call_errors.py \
---input_folder /input_folder --output_folder /output_folder \
+--input_folder /input_folder --output_folder /output_folder --output_folder_locations /output_folder_locations \
 --reference_genome_fasta_file /genome_folder/$fasta_file_name; \
-chmod 777 -R /output_folder"
+chmod 777 -R /output_folder; chmod 777 -R /output_folder_locations"
